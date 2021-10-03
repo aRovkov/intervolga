@@ -9,7 +9,7 @@
 			array_pop($result);
 			$count++;
 			array_push($result, $count);
-			$prvItem = null;		//считаем только пары
+			$prvItem = null;	//считаем только пары
 		} else {
 			$count = 0;
 			$prvItem = $item;
